@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <script type="text/javascript" src="code.js"></script>
+    <title>Calculadora de namoro</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de namoro</h1>
+        <h3>Tá apaixonado né safado(a)</h3>
+    </header>
+    
+    
+    <div id="calculadora">
+        <div id="solteiro">
+            <div id="idade">
+                <legend>Solteiro</legend>
+                <label for="numIdade">Digite a sua idade</label>
+                <input type="number" id="numIdade" required><br>
+                <div id="resultado1">
+                </div>
+                <button onclick="solteiro()">solteirão</button>
+            </div>
+        </div>
+        <div id="monogamico">
+            <div id="idade">
+                <legend>Casal</legend>
+                <label for="numIdade1">Digite a sua idade</label>
+                <input type="number" id="numIdade1" name="numIdade1"><br>
+                <label for="numIdade2">Digite a idade da pessoa</label>
+                <input type="number" id="numIdade2" name="numIdade2"><br>
+                <div id="resultado2">
+                </div>
+                <button onclick="monogamico()">safadeza</button>
+            </div>
+        </div>
+        <div id="trisal">
+            <div id="idade2">
+                <legend>trisal</legend>
+                <label for="numIdade3">Digite a sua idade</label>
+                <input type="number" id="numIdade3" name="numIdade3"><br>
+                <label for="numIdade4">Digite a idade da pessoa</label>
+                <input type="number" id="numIdade4" name="numIdade4"><br>
+                <label for="numIdade5">Digite a idade da terceira pessoa</label>
+                <input type="number" id="numIdade5" name="numIdade5"><br>
+                <div id="resultado3">
+                </div>
+                <button onclick="trisal()">safadeza a 3</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

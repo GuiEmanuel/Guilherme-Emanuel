@@ -1,0 +1,81 @@
+body{
+    display: inline;
+    justify-content: center;
+    background-color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 110px;
+    width: 100%;
+    background-color: darkred;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+}
+header h3{
+    width: 100%;
+    text-align: center;
+}
+#titulo h3{
+    margin: 2px;
+}
+#calculadora{
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#trisal, #solteiro, #monogamico{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+#solteiro, #monogamico, #trisal{
+    background-color: azure;
+}
+#numIdade1, #numIdade2, button, #numIdade3, #numIdade4, #numIdade5, #numIdade, legend{
+    margin-bottom: 20px;
+}
+#resultado1, #resultado2, #resultado3{
+    background-color: grey;
+    height: 70px;
+    width: 300px;
+    border-radius: 15px;
+    padding: 5px;
+}
+#resultado3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+#resultado2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+#resultado1{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+button{
+    color: white;
+    background-color: black;
+    border-style: none;
+    padding: 3px;
+    border-radius: 5px;
+}
